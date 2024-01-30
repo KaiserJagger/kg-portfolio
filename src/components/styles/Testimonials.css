@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap");
+
+#testimonial {
+    height: 100vh;
+    width: 100%;
+    padding: 100px 150px;
+  }
+  
+  .testimonial-title {
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    justify-content: space-between;
+    align-items: end;
+  }
+  
+  .testimonial-title h4 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .testimonial-title p {
+    color: #7c7d81;
+    font-size: 14px;
+    align-self: end;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+    margin: 6px;
+  }
+  
+  .testimonial-card {
+    max-height: 300px;
+    width: 100%;
+    background-color: #25262a;
+    padding: 40px 50px;
+    border-radius: 8px;
+    margin: 30px 0;
+    display: block;
+  }
+  
+  .star-rating {
+    display: flex;
+    flex-direction: row;
+    color: #64f4ac;
+    align-items: center;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+  
+  .star-rating i {
+    margin: 0 3px;
+  }
+  
+  .star-rating p {
+    margin: 0 10px;
+    padding: 0;
+    font-size: 14px;
+    color: #7c7d81;
+  }
+  
+  .testimonial-card h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 85%;
+  }
+  
+  .testimonial-card i:last-child {
+    position: relative;
+    top: -100px;
+    left: 1000px;
+    color: #FFFFFF40;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .client-profile-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+    cursor: pointer;
+    width: 95%;
+  }
+  
+  .single-profile-card {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 30%;
+    border-bottom: 3px dashed #7c7d81;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .single-profile-card.profile-card-active {
+    background-color: #25262a;
+    border-bottom: 3px dashed #64f4ac;
+  }
+  
+  .single-profile-card img {
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .single-profile-card div h4 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .single-profile-card div p {
+    margin: 4px 0;
+    padding: 0;
+    font-size: 12px;
+    color: #7c7d81;
+  }
+  
+  .single-profile-card div p a {
+    color: #64f4ac;
+    text-decoration: none;
+  }
+  
+  .single-profile-card div p a:hover{
+    text-decoration: underline;
+  }
+  
