@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import axios from 'axios'
 import './styles/Footer.css';
 import './styles/GlobalStyles.css';
 
@@ -20,7 +19,7 @@ const Footer = () => {
   
     try {
       // Realiza una solicitud HTTP para enviar los datos del formulario al servidor
-      await axios.post('http://localhost:3001/form', form);
+      // await axios.post('http://localhost:3001/form', form);
       setSendSucces(true);
       console.log('Formulario enviado con éxito');
     } catch (error) {
