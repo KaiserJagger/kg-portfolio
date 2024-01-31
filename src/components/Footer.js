@@ -1,61 +1,66 @@
-import React, {useState} from 'react';
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 import './styles/Footer.css';
 import './styles/GlobalStyles.css';
 
-const Footer = () => {
-  const [form, setForm] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
-  
-  const [sentSucces, setSendSucces] = useState(false);
+function ContactForm() {
+  const [state, handleSubmit] = useForm("mwkgpppl");
 
-  const handleChange = (e) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
-  };
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-  
-    try {
-      // Realiza una solicitud HTTP para enviar los datos del formulario al servidor
-      // await axios.post('http://localhost:3001/form', form);
-      setSendSucces(true);
-      console.log('Formulario enviado con éxito');
-    } catch (error) {
-      if (error.response) {
-        // La solicitud fue realizada y el servidor respondió con un código de estado diferente de 2xx
-        console.error('Error al enviar el formulario', error.response.data);
-      } else if (error.request) {
-        // La solicitud fue realizada pero no se recibió respuesta
-        console.error('Error al enviar el formulario, no se recibió respuesta del servidor');
-      } else {
-        // Algo sucedió en la configuración de la solicitud que desencadenó un error
-        console.error('Error al enviar el formulario', error.message);
-      }
+  const handleFormSubmit = async (event) => {
+    await handleSubmit(event);
+
+    // Reset the form only if submission is successful
+    if (state.succeeded) {
+      // Set values of the form fields to an empty string
+      document.getElementById('email').value = '';
+      document.getElementById('message').value = '';
     }
   };
-  
-      return (
-        <section id="footer">
-          <form className='form' onSubmit={handleSubmit}>
-          <h2 className='title-contact'> Contact me</h2>
-          <h3>Let's make something amazing!</h3>
-      <label>
-        <input type="text" name="name" value={form.name} onChange={handleChange} placeholder='Name' />
-      </label>
-      <label >
-        <input  type="email" name="email" value={form.email} onChange={handleChange} placeholder='Email' />
-      </label>
-      <label>
-        <textarea name="message" value={form.message} onChange={handleChange} placeholder='Message' />
-      </label>
-      <button className='btn-form' type="submit">Submit</button>
-    {sentSucces && <p>Submitted successfully!</p>}
-    </form>
-        </section>
-  );
 
+  return (
+    <section id="footer">
+      <form className='form' onSubmit={handleFormSubmit}>
+        <h2 className='title-contact'> Contact me</h2>
+        <h3>Let's make something amazing!</h3>
+        <label className="email" htmlFor="email">
+        </label>
+        <input
+          id="email"
+          type="email" 
+          name="email"
+          placeholder='Email Address'
+        />
+        <ValidationError 
+          prefix="Email"
+          field="email"
+          errors={state.errors}
+        />
+        <textarea
+          id="message"
+          name="message"
+          placeholder='Message'
+        />
+        <ValidationError 
+          prefix="Message" 
+          field="message"
+          errors={state.errors}
+        />
+        <button className='btn-form' type="submit" disabled={state.submitting}>
+          Submit
+        </button>
+      </form>
+
+      {state.succeeded && (
+        <p className='success-text'>Thanks for reaching out! I'll get back to you soon.</p>
+      )}
+    </section>
+  );
 }
 
-export default Footer;
+function App() {
+  return (
+    <ContactForm />
+  );
+}
+
+export default App;

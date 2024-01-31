@@ -118,8 +118,8 @@
     margin-left: 39%;
   }
 
-  .form p{
-    margin-left: 35%;
+  .success-text{
+    margin-left: 30%;
     color: #fff;
   }
 
@@ -196,8 +196,8 @@
     font-size: 0.9em;
   }
 
-  .form p{
-    margin-left: 22%;
+  .success-text{
+    margin-left: 10%;
     margin-bottom: 10px;
     color: #fff;
   }
@@ -261,8 +261,8 @@
     font-size: 0.9em;
   }
 
-  .form p{
-    margin-left: 18%;
+  .success-text{
+    margin-left: 10%;
     margin-bottom: 20px;
     color: #fff;
   }
