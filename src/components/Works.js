@@ -121,7 +121,7 @@ Although no longer in use, I emphasize a commitment to accurate diagnosis, effic
                  Although we have achieved an attractive and fun experience. 
                  Each personal record and the possibility of competing with friends remain pending.
                </p>
-              <a className="url" href='https://jumping-man-github-io.vercel.app/' target="_blank" rel="noopener noreferrer">Visit</a>
+              <a className="url" href='https://jumping-man.vercel.app/' target="_blank" rel="noopener noreferrer">Visit</a>
           </div>
       </div>
   </div>
