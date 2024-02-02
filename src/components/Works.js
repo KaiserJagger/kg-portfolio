@@ -16,7 +16,7 @@ const LatestWorks = () => {
 
   return (
     <section id="latest-works">
-      <div className="title-works">My projects</div>
+      <div className="title-works">Projects</div>
       <div className="left-project">
        <div className="flip-card" onClick={() => handleCardClick(0)}>
         <div className={`flip-card-inner${pressedCards[0] ? ' pressed' : ''}`}>
@@ -28,10 +28,10 @@ const LatestWorks = () => {
           <div class="flip-card-back">
             <p className='title-cards'>NodeJS - MongoDB - Bootstrap</p>
             <p className='text-card'>I highlight this project as an e-commerce platform where backend development takes center stage.
-There are 3 roles: "premium, user and administrator".
-The admin role can assign which user can be premium by giving them seller permissions to manage the product listing.
-The user role registers, browses and makes secure purchases.
-Work continues on the implementation of the MercadoPago API and improving the user interface.
+              There are 3 roles: "premium, user and administrator".
+              The admin role can assign which user can be premium by giving them seller permissions to manage the product listing.
+              The user role registers, browses and makes secure purchases.
+              Work continues on the implementation of the MercadoPago API and improving the user interface.
 
             </p>
             <a className="url" href="https://dsj-distribucionessanjuan.up.railway.app/" target="_blank" rel="noopener noreferrer"> Visit</a>
@@ -50,8 +50,8 @@ Work continues on the implementation of the MercadoPago API and improving the us
               <p className='title-cards'>NodeJS- MongoDB - Bootstrap</p>
                 <p class="text-card">
                 In this project, I highlight an e-commerce platform with a focus on backend development.
-Users can register and purchase products securely. It is worth highlighting the "premium" role, functionality where users can sell their products.
-Work in progress includes the addition of payment gateways. This project reflects continuous improvement, balancing backend functionality with an easy-to-use interface
+                Users can register and purchase products securely. It is worth highlighting the "premium" role, functionality where users can sell their products.
+                Work in progress includes the addition of payment gateways. This project reflects continuous improvement, balancing backend functionality with an easy-to-use interface
                 </p>
                 <a className="url" href="https://jaggerstore-production-c4a6.up.railway.app/" target="_blank" rel="noopener noreferrer"> Visit</a>
               </div>
@@ -69,7 +69,7 @@ Work in progress includes the addition of payment gateways. This project reflect
                   <div class="flip-card-back">
                     <p className='title-cards'>HTML - CSS - JavaScript</p>
                     <p class="text-card">This was my first project, focused on informing and promoting a comprehensive software and hardware technical service in the field of computing.
-Although no longer in use, I emphasize a commitment to accurate diagnosis, efficient repairs and personalized advice to keep the technology in optimal condition.</p>
+                    Although no longer in use, I emphasize a commitment to accurate diagnosis, efficient repairs and personalized advice to keep the technology in optimal condition.</p>
 
                   </div>
               </div>

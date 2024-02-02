@@ -38,14 +38,14 @@ const Introduction = () => {
 
         <div>
         <h3 className='title-card'>Backend Development</h3>
-          <i className="fas fa-terminal"></i>
+          <i className="icono fas fa-terminal"></i>
         </div>
         <p>Crafting High-Performance Web Systems</p>
       </div>
         <div className="design-card">
           <div>
             <h3 className='title-card'>Frontend Development</h3>
-            <i className="fas fa-code"></i>
+            <i className="icono fas fa-code"></i>
           </div>
           <p>Crafting User Interfaces</p>
           
@@ -53,7 +53,7 @@ const Introduction = () => {
         <div className="design-card">
           <div>
             <h3 className='title-card'>Database Administrator</h3>
-            <i className="fa-solid fa-database"></i>
+            <i className="icono fa-solid fa-database"></i>
           </div>
           <p>Mastery of MySQL Database Management</p>
         </div>

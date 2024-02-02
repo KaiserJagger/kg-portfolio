@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap");
 
+
+
 #content-body {
     display: flex;
     background: url('../../../public/assets/bg.jpg');
@@ -13,6 +15,8 @@
     max-height: 100vh;
   }
   
+
+
   .developer-intro {
     display: flex;
     align-items: center;
@@ -255,6 +259,7 @@
     transform: rotateY(calc(var(--i)* calc(360deg / 1))) translateZ(0px);
   }
 
+  
                                     /* Responsive */
 
 @media (max-width: 768px) {

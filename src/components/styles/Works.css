@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap");
 
 #latest-works {
-    background: url('../../../public/assets/email-background.jpg');
+  background-color: #1a201d;
     width: 100%;
     height: 100%;
     min-height: 150vh;
@@ -262,7 +262,7 @@
 /* Media query para pantallas más pequeñas */
 @media only screen and (max-width: 750px) {
   #latest-works {
-    background: url('../../../public/assets/email-background.jpg');
+    background-color: #1a201d;
     width: 100%;
     height: 50%;
     min-height: 150vh;
@@ -274,13 +274,11 @@
   }
   
   .title-works{
-    margin-left: -50%;
+    margin-right: 30px;
     width: 350px;
     height: 60px;
     color: aliceblue;
-    margin-top: -75px;
-    margin-bottom: 50px;
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
   .left-project,
