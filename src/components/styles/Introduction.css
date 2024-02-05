@@ -5,6 +5,7 @@
   background: url('../../../public/assets/bg.jpg');
   flex-direction: column;
   padding: 20px;
+  margin-top: 30px;
   min-height: 95vh;
   align-items: center;
   text-align: center;
@@ -159,6 +160,7 @@ a {
 @media (max-width: 500px) {
   #introduction {
     padding: 20px 10px;
+    
   }
 
   .cards {

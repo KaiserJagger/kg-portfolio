@@ -30,7 +30,7 @@ const Introduction = () => {
   return (
     <section id="introduction">
       <div className="introduction-header">
-        <h2 className="title-intro">About Me</h2>
+        <h2 className="title-intro">Featured skills </h2>
       </div>
       <div className="content-container">
     <div className="cards">
