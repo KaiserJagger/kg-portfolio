@@ -34,7 +34,7 @@ const LatestWorks = () => {
               Work continues on the implementation of the MercadoPago API and improving the user interface.
 
             </p>
-            <a className="url" href="https://dsj-distribucionessanjuan.up.railway.app/" target="_blank" rel="noopener noreferrer"> Visit</a>
+            <a className="url" href="https://github.com/KaiserJagger/DSJ" target="_blank" rel="noopener noreferrer">View code</a>
           </div>
       </div>
     </div>
@@ -53,7 +53,7 @@ const LatestWorks = () => {
                 Users can register and purchase products securely. It is worth highlighting the "premium" role, functionality where users can sell their products.
                 Work in progress includes the addition of payment gateways. This project reflects continuous improvement, balancing backend functionality with an easy-to-use interface
                 </p>
-                <a className="url" href="https://jaggerstore-production-c4a6.up.railway.app/" target="_blank" rel="noopener noreferrer"> Visit</a>
+                <a className="url" href="https://github.com/KaiserJagger/ProyectoFinalBackend" target="_blank" rel="noopener noreferrer"> View code</a>
               </div>
           </div>
       </div>
@@ -103,7 +103,7 @@ const LatestWorks = () => {
             <div class="flip-card-back">
                 <p className='title-cards'>JavaScript</p>
                 <p className='text-card'>This script, powered by Inquirer.js, offers an interactive CLI to configure server details, establish a comprehensive project structure, integrate middleware, and enable modular routing. Ideal for quick server setup, allowing developers to focus on building features.</p>
-                <a className="url" href='https://github.com/KaiserJagger/CrearServidores.git' target="_blank" rel="noopener noreferrer">Code</a>
+                <a className="url" href='https://github.com/KaiserJagger/CrearServidores' target="_blank" rel="noopener noreferrer">View code</a>
             </div>
         </div>
     </div>
