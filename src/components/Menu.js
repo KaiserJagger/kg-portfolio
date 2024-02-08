@@ -56,7 +56,7 @@ const Menu = () => {
           </li>
           <li>
             <i className="fa fa-id-badge"></i>
-            <a onClick={handleDescargarPDF} target="_blank" rel="noopener noreferrer">Descargar CV</a>
+            <a onClick={handleDescargarPDF} target="_blank" rel="noopener noreferrer">CV</a>
           </li> 
         </ul>
       </div>
