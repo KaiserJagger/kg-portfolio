@@ -180,9 +180,12 @@
     transform: rotateY(calc(var(--i)* calc(360deg / 1))) translateZ(0px);
   }
 
-  .circle .ex { /* Estilo para la imagen con la clase 'mdb' */
-    height:100px ;
-    width: 50px;
+  .circle .ex { 
+    margin-top: 15px;
+    margin-left: 15px;
+    height:70px ;
+    width: 70px;
+    border-radius: 10px;
     transform: rotateY(calc(var(--i)* calc(360deg / 1))) translateZ(0px);
   }
 
@@ -332,8 +335,11 @@
   }
   
   .circle .ex {
-    height: 20px;
-    width: 20px;
+    margin-top: 15px;
+    margin-left: 13px;
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
     transform: rotateY(calc(var(--i) * calc(360deg / 1))) translateZ(0px);
   }
   

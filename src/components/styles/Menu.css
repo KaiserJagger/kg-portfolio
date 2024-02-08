@@ -78,6 +78,7 @@
 .social-media li a {
   color: #fefefe;
   text-decoration: none;
+  cursor: pointer;
   padding: 0 5px;
   font-size: 15px;
   transition: 0.3s ease;
@@ -85,6 +86,10 @@
 
 .social-media li:nth-child(1):hover i {
   color: #0077b5;
+}
+
+.social-media li:nth-child(4):hover i {
+  color: #64f4ac;
 }
 
 .social-media li:nth-child(3):hover i {

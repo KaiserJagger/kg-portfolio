@@ -1,7 +1,10 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 
 import React, { useState } from 'react';
 import './styles/Menu.css';
 import './styles/SectionBody.css';
+import { descargarPDF } from '../utils/util.js';
+
 
 const Menu = () => {
   // Estado para controlar la visibilidad del menú en pantallas pequeñas
@@ -11,6 +14,12 @@ const Menu = () => {
   const handleMenuToggle = () => {
     setMenuVisible(!menuVisible);
   };
+  
+  const handleDescargarPDF = () => {
+  const rutaArchivo = '/CvActualizadoEsp.pdf'
+  const nombreArchivo = 'CVNicolasAndreolli'
+  descargarPDF(rutaArchivo, nombreArchivo);
+  }
 
   return (
     <section id="header">
@@ -45,6 +54,10 @@ const Menu = () => {
             <i className="far fa-envelope"></i>
             <a href="mailto:kaiserjager10@gmail.com">Email</a>
           </li>
+          <li>
+            <i className="fa fa-id-badge"></i>
+            <a onClick={handleDescargarPDF} target="_blank" rel="noopener noreferrer">Descargar CV</a>
+          </li> 
         </ul>
       </div>
     </section>
