@@ -22,7 +22,7 @@ const LatestWorks = () => {
         <div className={`flip-card-inner${pressedCards[0] ? ' pressed' : ''}`}>
             <div class="flip-card-front">
               <p class="title">DSJ</p>
-              <p className='description'>Distribuciones San Juan </p>
+              <p className='description'>San Juan Distributions</p>
             <img src="assets/Projects/project-1.png" alt="" className="dsj" />
           </div>
           <div class="flip-card-back">
@@ -63,7 +63,7 @@ const LatestWorks = () => {
         <div className={`flip-card-inner${pressedCards[2] ? ' pressed' : ''}`}>
                   <div class="flip-card-front">
                       <p class="title">AyR</p>
-                      <p className='description'>Service Hardware and Sodtware</p>
+                      <p className='description'>Hardware and Software services</p>
                       <img src="assets/Projects/ayr.png" alt="" className="ayr" />
                   </div>
                   <div class="flip-card-back">
