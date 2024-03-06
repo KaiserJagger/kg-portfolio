@@ -44,7 +44,7 @@ const Menu = () => {
         <ul className="social-media">
           <li>
             <i className="fab fa-linkedin-in"></i>
-            <a href="https://www.linkedin.com/in/nicol%C3%A1s-andreolli-940408219/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/nicol%C3%A1sandreolli/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </li>
           <li>
             <i className="fab fa-github"></i>
