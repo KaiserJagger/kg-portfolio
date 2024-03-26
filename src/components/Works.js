@@ -27,12 +27,8 @@ const LatestWorks = () => {
           </div>
           <div class="flip-card-back">
             <p className='title-cards'>NodeJS - MongoDB - Bootstrap</p>
-            <p className='text-card'>I highlight this project as an e-commerce platform where backend development takes center stage.
-              There are 3 roles: "premium, user and administrator".
-              The admin role can assign which user can be premium by giving them seller permissions to manage the product listing.
-              The user role registers, browses and makes secure purchases.
-              Work continues on the implementation of the MercadoPago API and improving the user interface.
-
+            <p className='text-card'>I highlight this project as an e-commerce platform with a strong focus on backend development, using technologies such as Bootstrap, Node.js, and MongoDB. 
+            The main function is product and sales management. Work continues on implementing payment gateways and improving the user interface.
             </p>
             <a className="url" href="https://github.com/KaiserJagger/DSJ" target="_blank" rel="noopener noreferrer">View code</a>
           </div>
@@ -49,9 +45,9 @@ const LatestWorks = () => {
               <div class="flip-card-back">
               <p className='title-cards'>NodeJS- MongoDB - Bootstrap</p>
                 <p class="text-card">
-                In this project, I highlight an e-commerce platform with a focus on backend development.
-                Users can register and purchase products securely. It is worth highlighting the "premium" role, functionality where users can sell their products.
-                Work in progress includes the addition of payment gateways. This project reflects continuous improvement, balancing backend functionality with an easy-to-use interface
+                In this project, I highlight an e-commerce platform with a focus on backend development. 
+                Users can register and purchase products securely. The "premium" role stands out, allowing users to sell their products. 
+                Work in progress includes the addition of payment gateways. This project reflects ongoing improvement, balancing backend functionality with a user-friendly interface.
                 </p>
                 <a className="url" href="https://github.com/KaiserJagger/ProyectoFinalBackend" target="_blank" rel="noopener noreferrer"> View code</a>
               </div>
