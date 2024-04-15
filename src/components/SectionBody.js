@@ -36,6 +36,7 @@ const ContentBody = () => {
             <span style={{ '--i': 9 }}><img className='gh' src="/assets/SVGIcons/Github-Dark.svg" alt="GitHub" /></span>
             <span style={{ '--i': 10 }}><img className='html' src="/assets/html.png" alt="HTML" /></span>
             <span style={{ '--i': 11 }}><img className='ex' src="/assets/express.png" alt="express" /></span>
+            <span style={{ '--i': 12 }}><img className='php' src="/assets/php.png" alt="express" /></span>
           </div>
           </div>
         </div>

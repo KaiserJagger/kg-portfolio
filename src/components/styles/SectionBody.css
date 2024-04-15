@@ -237,6 +237,14 @@
     transform: rotateY(calc(var(--i)* calc(360deg / 1))) translateZ(0px);
   }
 
+  .circle .php{ /* Estilo para la imagen con la clase 'php' */
+    margin-top: 8px;
+    margin-left: 10px;
+    height:90px ;
+    width: 90px;
+    transform: rotateY(calc(var(--i)* calc(360deg / 1))) translateZ(0px);
+  }
+
   .circle .node { /* Estilo para la imagen con la clase 'mdb' */
     margin-top: 8px;
     margin-left: 5px;
