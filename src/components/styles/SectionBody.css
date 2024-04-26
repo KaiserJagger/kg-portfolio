@@ -295,7 +295,7 @@
 
   .body-tail {
     margin-top: -80px;
-    margin-left: 20%;
+    margin-left: 10px;
     flex-direction:row;
     align-items: center;
   }
@@ -396,6 +396,14 @@
     margin-left: 12px;
     height: 40px;
     width: 40px;
+    transform: rotateY(calc(var(--i) * calc(360deg / 1))) translateZ(0px);
+  }
+
+  .circle .php {
+    margin-top: 5px;
+    margin-left: 8px;
+    height: 50px;
+    width: 50px;
     transform: rotateY(calc(var(--i) * calc(360deg / 1))) translateZ(0px);
   }
   
