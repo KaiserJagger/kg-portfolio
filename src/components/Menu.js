@@ -24,7 +24,8 @@ const Menu = () => {
   return (
     <section id="header">
       <div className="navbar-title">
-        <h3 className="title-first-name">KaiserJagger</h3>
+      <a className="active" href="#content-body"><h3 className="title-first-name">KaiserJagger</h3></a>
+      
       </div>
       <div>
         {/* Botón de menú para pantallas pequeñas */}
