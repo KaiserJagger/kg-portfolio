@@ -27,6 +27,8 @@ const Introduction = () => {
       });
     });
   }, []);
+
+  
   return (
     <section id="introduction">
       <div className="introduction-header">

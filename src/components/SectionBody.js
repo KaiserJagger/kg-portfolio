@@ -15,10 +15,10 @@ const ContentBody = () => {
           <p>Crafting dynamic web experiences where design meets seamless functionality</p>
         </div>
         <div className="body-tail">
-          <h1>3</h1>
+          <h1>5</h1>
           <p>YEARS<br />EXPERIENCE</p>
-          <h1>6</h1>
-          <p>PROJECTS<br />COMPLETED</p>
+          <h1>10</h1>
+          <p>PROJECTS AND <br/>CONTRIBUTIONS</p>
         </div>
       </div>
       <div className="body-part-2">
