@@ -245,7 +245,7 @@
     transform: rotateY(calc(var(--i)* calc(360deg / 1))) translateZ(0px);
   }
 
-  .circle .node { /* Estilo para la imagen con la clase 'mdb' */
+  .circle .node { /* Estilo para la imagen con la clase 'node' */
     margin-top: 8px;
     margin-left: 5px;
     height:80px ;

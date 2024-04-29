@@ -25,7 +25,7 @@ const ContentBody = () => {
       <div className="proyect-animation-class">
       <div className="hologram-content">
           <div className="circle">
-            <span style={{ '--i': 1 }}><img className='node' src="/assets/node-js.png" alt="Node.js" /></span>
+            <span style={{ '--i': 1 }}><img className='node' src="/assets/node-js.png" alt="Node-js" /></span>
             <span style={{ '--i': 2 }}><img className='mdb' src="/assets/mongodb.png" alt="MongoDB" /></span>
             <span style={{ '--i': 3 }}><img className='kali' src="/assets/SVGIcons/kali-logo.svg" alt="Kali" /></span>
             <span style={{ '--i': 4 }}><img className='react' src="/assets/react.png" alt="React" /></span>
@@ -35,8 +35,7 @@ const ContentBody = () => {
             <span style={{ '--i': 8 }}><img className='msql' src="/assets/SVGIcons/MySQL-Dark.svg" alt="MySQL" /></span>
             <span style={{ '--i': 9 }}><img className='gh' src="/assets/SVGIcons/Github-Dark.svg" alt="GitHub" /></span>
             <span style={{ '--i': 10 }}><img className='html' src="/assets/html.png" alt="HTML" /></span>
-            <span style={{ '--i': 11 }}><img className='ex' src="/assets/express.png" alt="express" /></span>
-            <span style={{ '--i': 12 }}><img className='php' src="/assets/php.png" alt="express" /></span>
+            <span style={{ '--i': 11 }}><img className='php' src="/assets/php.png" alt="php" /></span>
           </div>
           </div>
         </div>
