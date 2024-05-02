@@ -274,9 +274,9 @@
   }
   
   .title-works{
-    margin-right: 30px;
-    width: 350px;
-    height: 60px;
+    margin-left: -45% !important;
+    width: 200px;
+    height: 40px;
     color: aliceblue;
     font-size: 2em;
   }
@@ -391,7 +391,7 @@
 
 @media only screen and (max-width: 450px) {
   .title-works{
-    margin-left: -100%;
+    margin-left: -115px;
   }
 }
 

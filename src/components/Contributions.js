@@ -22,7 +22,7 @@ const MovieCard = () => {
       <div class="card">
         <div class="poster"><img src="/assets/Contributions/cont2.png" alt="Location Unknown" ></img></div>
         <div class="details">
-          <a className="url" href="https://petily.com.br/" target="_blank" rel="noopener noreferrer">Petily</a>
+          <a className="detail-url" href="https://petily.com.br/" target="_blank" rel="noopener noreferrer">Petily</a>
           <p>Petily is a pet care platform that offers user and pet registration, veterinary health center location, appointment booking and payments, and pet care advice.</p>
           <div class="tags">
             <img className='js' src="/assets/javascript.png" alt="js" />
