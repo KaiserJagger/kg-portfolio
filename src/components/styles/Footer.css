@@ -126,6 +126,16 @@
 
   /*RESPONSIVE */
 
+  @media only screen and (max-width: 900px) {
+
+    .form{
+      width: 90%;
+      height: 110%;
+      margin-left: 5%;
+    }
+  }
+
+
 @media (max-width: 800px) {
   #footer {
     flex-direction: column; /* Cambia a una disposición de columna en dispositivos móviles */
