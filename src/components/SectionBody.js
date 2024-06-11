@@ -12,7 +12,7 @@ const ContentBody = () => {
         </div>
         <div className="body-title">
           <h1>Full Stack Developer</h1>
-          <p>Crafting dynamic web experiences where design meets seamless functionality</p>
+          <p>Create dynamic web experiences where design meets seamless functionality</p>
         </div>
         <div className="body-tail">
           <h1>5</h1>

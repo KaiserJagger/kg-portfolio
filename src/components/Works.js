@@ -45,9 +45,9 @@ const LatestWorks = () => {
               <div class="flip-card-back">
               <p className='title-cards'>NodeJS- MongoDB - Bootstrap</p>
                 <p class="text-card">
-                In this project, I highlight an e-commerce platform with a focus on backend development. 
-                Users can register and purchase products securely. The "premium" role stands out, allowing users to sell their products. 
-                Work in progress includes the addition of payment gateways. This project reflects ongoing improvement, balancing backend functionality with a user-friendly interface.
+                In this project I present an e-commerce platform with a focus on backend development. 
+                Users can register and buy products securely. The "premium" role stands out, allowing users to sell their products. 
+                Work in progress includes adding payment gateways. This project reflects continuous improvement, balancing backend functionality with a user-friendly interface.
                 </p>
                 <a className="url" href="https://github.com/KaiserJagger/ProyectoFinalBackend" target="_blank" rel="noopener noreferrer"> View code</a>
               </div>
@@ -63,9 +63,9 @@ const LatestWorks = () => {
                       <img src="assets/Projects/ayr.png" alt="" className="ayr" />
                   </div>
                   <div class="flip-card-back">
-                    <p className='title-cards'>HTML - CSS - JavaScript</p>
-                    <p class="text-card">This was my first project, focused on informing and promoting a comprehensive software and hardware technical service in the field of computing.
-                    Although no longer in use, I emphasize a commitment to accurate diagnosis, efficient repairs and personalized advice to keep the technology in optimal condition.</p>
+                    <p className='title-cards'>HTML - CSS - JavaScript - OS Specialist</p>
+                    <p class="text-card">This was my first project focused on informing and promoting a comprehensive software and hardware technical service in the field of computing.
+                    Although no longer in use, I emphasize the commitment to accurate diagnosis, efficient repairs, and personalized advice to keep technology in optimal condition</p>
 
                   </div>
               </div>
@@ -80,11 +80,11 @@ const LatestWorks = () => {
                   </div>
                   <div class="flip-card-back">
                     <p className='title-cards'>NodeJS - Express - MongoDB</p>
-                    <p className='text-card'>"Designed to provide quick and accurate solutions in the financial world, 
+                    <p className='text-card'>Designed to provide quick and accurate solutions in the financial world, 
                       our API allows for easy currency conversions, offering real-time updated data. 
                       We streamline integration with a user-friendly interface. 
                       While not yet implemented due to budget constraints, we are working to deliver this 
-                      valuable tool shortly."</p>
+                      valuable tool shortly.</p>
                   </div>
               </div>
           </div>
