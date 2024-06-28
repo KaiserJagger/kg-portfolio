@@ -16,8 +16,8 @@ const Menu = () => {
   };
   
   const handleDescargarPDF = () => {
-  const rutaArchivo = '/NicolásAndreolliCvIn.pdf'
-  const nombreArchivo = 'NicolásAndreolliCv'
+  const rutaArchivo = '/CV-NicolasAndreolli-Dev.pdf'
+  const nombreArchivo = 'CV-NicolasAndreolli-Dev'
   descargarPDF(rutaArchivo, nombreArchivo);
   }
 
